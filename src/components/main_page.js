@@ -7,17 +7,11 @@ const MainPage = () => {
         <div className="MainPage">
             <div className="intro-info limit-width">
                 <article>
-                    <h2>About me</h2>
-                    <p>UF computer science graduate passionate about writing code. Web Development, javascript,
-                        Responsive web design. Focused on user experience and beautiful/clean interfaces
-                        frameworks react, css html. android cross platform</p>
+                    <h2>About Me</h2>
+                    <p>I am a UF computer science graduate passionate about writing code. With a background in mobile
+                        and web development I aim to provide the best user experience with modern, 
+                        simple-to-navigate applications.</p>
                 </article>
-                {/* <article className="limit-width">
-                    <h2>Interests</h2>
-                    <p>UF computer science graduate passionate about writing code. Web Development, javascript,
-                        Responsive web design. Focused on user experience and beautiful/clean interfaces
-                        frameworks react, css html. android cross platform</p>
-                </article> */}
             </div>
             <div className="responsive-container">
                 <div className="full-width-image" />

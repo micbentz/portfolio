@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
+import '../node_modules/font-awesome/css/font-awesome.min.css';
 
 import Header from './components/header';
 import MainPage from './components/main_page';
@@ -13,7 +14,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <MainPage />
-        <FAB />
+        {/* <FAB /> */}
         <Footer />
       </div>
     );
