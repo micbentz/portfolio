@@ -213,6 +213,9 @@ a:hover {
 
 /* When the screen is larger than an iphone7+ */
 @media screen and (min-width: 600px) {
+  .MainPage {
+    margin-bottom: 0;
+  }
   .MainPage * > article {
     min-width: 47%; /* Set max-width of articles to avoid using margin/padding */
     max-width: 47%;
