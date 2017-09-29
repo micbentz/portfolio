@@ -12,12 +12,12 @@ const MainPage = () => {
                         Responsive web design. Focused on user experience and beautiful/clean interfaces
                         frameworks react, css html. android cross platform</p>
                 </article>
-                <article className="limit-width">
+                {/* <article className="limit-width">
                     <h2>Interests</h2>
                     <p>UF computer science graduate passionate about writing code. Web Development, javascript,
                         Responsive web design. Focused on user experience and beautiful/clean interfaces
                         frameworks react, css html. android cross platform</p>
-                </article>
+                </article> */}
             </div>
             <div className="responsive-container">
                 <div className="full-width-image" />

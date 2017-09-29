@@ -74,6 +74,8 @@ a:hover {
 .my-info {
   position: relative;
   text-align: left;
+  font-size: 1em;
+  /* font-size: 1.5em; */
 }
 
 .profile-picture {
@@ -97,7 +99,7 @@ a:hover {
   position: absolute;
   left: 2%;
   bottom: 30px;
-  font-size: 0.8em;
+  font-size: 1em;
   font-variant: small-caps;
 }
 
@@ -118,7 +120,15 @@ a:hover {
   display: flex;
   margin-bottom: 100px;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.MainPage .intro-info h2 {
+  font-size: 2.5em;
+}
+
+.MainPage .intro-info p {
+  font-size: 1.5em;
 }
 
 .MainPage * > h2 {
@@ -216,12 +226,14 @@ a:hover {
 
 /* When the screen is larger than an iphone7+ */
 @media screen and (min-width: 600px) {
+  .Header .my-info {
+    font-size: 1.5em;
+  }
   .MainPage {
     margin-bottom: 0;
   }
   .MainPage * > article {
-    min-width: 47%; /* Set max-width of articles to avoid using margin/padding */
-    max-width: 47%;
+    max-width: 50%;
     text-align: center;
   }
   .MainPage .intro-info {
