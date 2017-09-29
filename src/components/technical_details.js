@@ -13,8 +13,8 @@ const TechnicalDetails = () => {
                         <li>jQuery</li>
                         <li>HTML</li>
                         <li>CSS</li>
-                        <li>SQL</li>
                         <li>React</li>
+                        <li>SQL</li>
                         <li>VSC</li>
                         <li>Agile</li>
                     </ul>
@@ -24,15 +24,15 @@ const TechnicalDetails = () => {
                     <h2>Projects</h2>
                     <ul className="project-list">
                         <li className="project">
-                            <a href="#">Shape Shift</a>
+                            <a href="https://play.google.com/store/apps/details?id=com.game.bentz.ShapeShift&hl=en">Shape Shift</a>
                             {/* <p>Description</p> */}
                         </li>
                         <li className="project">
-                            <a href="#">GSC Site</a>
+                            <a href="https://micbentz.github.io/GSC_Site/">GSC Site</a>
                             {/* <p>Description</p> */}
                         </li>
                         <li className="project">
-                            <a href="#">RDT Protocol</a>
+                            <a href="https://github.com/micbentz/Networking-Assignment-2">RDT Protocol</a>
                             {/* <p>Description</p> */}
                         </li>
                         <li className="project">
