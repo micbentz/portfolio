@@ -253,6 +253,9 @@ a:hover {
   .Technical-Details .language_list > li, .project-list > li {
     font-size: 1em;
   }
+  .Footer .social-media-links, .contact-info {
+    font-size: 1.2em;
+  }
 }
 
 @media screen and (max-width: 890px) {
@@ -277,7 +280,6 @@ a:hover {
   }
 }
 
-
 /*
 * FAB 
 */
@@ -289,8 +291,6 @@ a:hover {
   width: 50px;
   height: 50px;
   text-align: center;
-  /* color: whitesmoke; */
-  /* background-color: #f37021; */
   background-color: #f47a31;
   clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
   transition: all 0.5s ease-in;
@@ -306,7 +306,7 @@ a:hover {
 .Footer {
   width: 100%;
   margin-top: 50px;
-  padding: 10px 0 0 0;
+  padding-top: 30px;
   text-align: center;
   background-color: #001c35;;
 }
@@ -316,10 +316,46 @@ a:hover {
 }
 
 .Footer-content {
-  /* background-color: #001c35; */
+  color: whitesmoke;
 }
+
+.social-media-links {
+  width: 100%;
+  margin-bottom: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.social-media-links > h3 {
+  margin-bottom: 4px;
+  font-size: 1em;
+}
+
+.social-media-links a {
+  font-size: 1.2em;
+  color: whitesmoke;
+  margin: 0 8px;
+}
+
+.contact-info {
+  width: 100%;
+}
+
+.contact-info > h3 {
+  margin-bottom: 4px;
+  font-size: 1em;
+}
+
+.contact-info > p {
+  width: 100%;
+  font-size: 0.8em;
+}
+
 .Footer-copyright {
-  margin-top: 10px;
+  margin-top: 30px;
   padding: 10px 0;
+  font-size: 0.7em;
   background-color: #001324;
+  text-align: center;
 }
