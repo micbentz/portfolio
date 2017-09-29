@@ -14,54 +14,15 @@ const MainPage = () => {
                 </article>
                 <article className="limit-width">
                     <h2>Interests</h2>
-                    <p>Netus porta. Nulla magna. Dolor vitae placerat. Curae porta. Dolor velit lorem tempor lorem adipiscing nonummy odio. Curae massa ipsum nonummy vulputate mauris duis. Etiam vitae lorem tortor vestibulum nulla. Lacus curae diam cum nisi netus cubilia nonummy nisl ipsum ve rutrum dui. Purus morbi metus euismod posuere primis. Metus purus massa. Massa nulla sem ipsum sem hac pellentesque augue et id phasellus. Vitae morbi scelerisque in litora ac aenean bibendum tristique dictumst dictum turpis aliquam. Massa lacus dictumst proin et tempus elit suspendisse laoreet metus morbi. Fusce donec fames conubia varius fames netus. Porta metus.</p>
+                    <p>UF computer science graduate passionate about writing code. Web Development, javascript,
+                        Responsive web design. Focused on user experience and beautiful/clean interfaces
+                        frameworks react, css html. android cross platform</p>
                 </article>
             </div>
             <div className="responsive-container">
                 <div className="full-width-image" />
             </div>
             <TechnicalDetails />
-            <div className="technical-info limit-width-1000px">
-                <h1>The Technical Side</h1>
-                <section className="technical-content">
-                    <div className="flex-container">
-                        <h2>Programming</h2>
-                        <ul className="language_list">
-                            <li>Java</li>
-                            <li>JavaScript</li>
-                            <li>jQuery</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>SQL</li>
-                            <li>React</li>
-                            <li>VSC</li>
-                            <li>Agile</li>
-                        </ul>
-                        {/* <TechnicalDetails /> */}
-                    </div>
-                    <div className="flex-container">
-                        <h2>Projects</h2>
-                        <ul className="project-list">
-                            <li className="project">
-                                <a href="#">Shape Shift</a>
-                                {/* <p>Description</p> */}
-                            </li>
-                            <li className="project">
-                                <a href="#">GSC Site</a>
-                                {/* <p>Description</p> */}
-                            </li>
-                            <li className="project">
-                                <a href="#">RDT Protocol</a>
-                                {/* <p>Description</p> */}
-                            </li>
-                            <li className="project">
-                                <a href="#">Platanos</a>
-                                {/* <p>Description</p> */}
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-            </div>
         </div>
     )
 };
