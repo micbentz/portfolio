@@ -1,0 +1,182 @@
+
+* {
+  /* font-family: 'Encode Sans Expanded', sans-serif; */
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+p {
+  color: rgba(0, 0, 0, 0.68);
+  font-weight: 100;
+  font-size: 1.1em;
+}
+
+.limit-width {
+  max-width: 1200px;
+  margin: 0 15px;
+}
+
+/* 
+* HEADER 
+*/
+.Header {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  max-height: 330px;
+  margin-bottom: 50px;
+
+  text-align: right;
+}
+
+.Header-responsive {
+  width: 100%;
+  height: 100%;
+  /* background-image:  url(./al2.jpg); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) ), url(./images/al.jpg);
+  background-position: center top;
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 30%, 100% 100%, 73% 89%, 47% 100%, 21% 89%, 0 100%);
+}
+
+.Header h1, h4, h5 {
+  color: whitesmoke;
+  margin: 0 auto;
+}
+
+.Header h5 {
+  position: absolute;
+  left: 2%;
+  top: 5px;
+  font-size: 0.8em;
+  font-variant: small-caps;
+}
+
+/*
+ * MAINPAGE 
+ */
+.MainPage {
+  /* max-width: 1200px; */
+  height: 100%;
+  /* margin: 15px 15px; */
+  color: #61A6E3;
+  /* background-color: #675C5C; */
+}
+
+.MainPage * > h2 {
+  margin-bottom: 8px;
+}
+
+.MainPage * > article {
+  margin: 10px 10px;
+}
+
+.intro-info, .personal-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.responsive-container {
+  width: 100%;
+  height: 300px;
+  max-height: 330px;
+  margin: 40px 0;
+}
+
+.full-width-image {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) ), url(./images/msl2.jpg);
+  background-position: center center;
+  background-size: cover;
+  clip-path: polygon(74% 10%, 100% 0, 100% 100%, 76% 85%, 49% 100%, 20% 88%, 0 100%, 0 0, 18% 11%, 49% 0);
+}
+
+
+/* When the screen size is bigger than 1200px (MAX Width) */
+@media screen and (min-width: 1201px) {
+  .MainPage {
+    margin: 15px auto;
+  }
+  .intro-info, .personal-info {
+    flex-wrap: nowrap;
+  }
+  .limit-width {
+    margin: 0 auto;
+  }
+}
+
+/* .full-width-image {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) ),  url(./msl.jpg);
+  background-position: center top;
+  background-size: cover;
+} */
+
+/*
+* TECHNICAL DETAILS 
+*/
+.TechnicalDetails-list li {
+  list-style: none;
+}
+
+/*
+* FAB 
+*/
+.FAB {
+  position: fixed;
+  padding: 0 10px 15px 10px;
+  right: 10px;
+  bottom: 14%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  /* color: whitesmoke; */
+  /* background-color: #f37021; */
+  background-color: #f47a31;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+  transition: all 0.5s ease-in;
+}
+
+.FAB:hover {
+  transform: scale(1.2);
+}
+
+/*
+* FOOTER 
+*/
+.Footer {
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px 0 0 0;
+  text-align: center;
+  background-color: #001c35;;
+}
+
+.Footer p {
+  color: whitesmoke;
+}
+
+.Footer-content {
+  /* background-color: #001c35; */
+}
+.Footer-copyright {
+  margin-top: 10px;
+  padding: 10px 0;
+  background-color: #001324;
+}
