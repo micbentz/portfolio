@@ -8,9 +8,12 @@ const Header = () => {
                 <div className="my-info limit-width">
                     <h1>Michael Bentz</h1>
                     <h4>UF Alumni</h4>
+                    <div className="profile-picture" />
                 </div>
             </div>
+            
         </div>
+        
     )
 };
 
