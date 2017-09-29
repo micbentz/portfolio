@@ -4,10 +4,12 @@
   "private": true,
   "homepage": "https://micbentz.github.io/portfolio",
   "dependencies": {
+    "font-awesome": "^4.7.0",
     "gh-pages": "^1.0.0",
     "master": "^1.0.1",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "react-fontawesome": "^1.6.1",
     "react-scripts": "1.0.14"
   },
   "scripts": {
