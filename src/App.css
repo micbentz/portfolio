@@ -248,15 +248,18 @@ a:hover {
   }
 }
 
+@media screen and (min-width: 1001px) {
+  .limit-width-1000px {
+    margin: 0 auto;
+  }
+}
+
 /* When the screen size is bigger than 1200px (MAX Width) */
 @media screen and (min-width: 1201px) {
   .MainPage {
     margin: 15px auto;
   }
   .limit-width {
-    margin: 0 auto;
-  }
-  .limit-width-1000px {
     margin: 0 auto;
   }
 }
