@@ -80,11 +80,11 @@ a:hover {
 
 .profile-picture {
   position: absolute;
-  width: 120px;
-  height: 120px;
+  width: 125px;
+  height: 100px;
   top: 5px;
-  right: -10px;
-  background-image:  url(./images/headshot.jpg);
+  right: -20px;
+  background-image:  url(./images/headshot2.jpg);
   background-image: center center;
   background-size: cover;
   clip-path: circle(50% at 50% 50%);
@@ -224,6 +224,14 @@ a:hover {
 
 /* When the screen is larger than an iphone7+ */
 @media screen and (min-width: 600px) {
+  .profile-picture {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    top: 5px;
+    right: 0;
+  }
+
   .Header .my-info {
     font-size: 1.5em;
   }
