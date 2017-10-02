@@ -24,7 +24,7 @@ const TechnicalDetails = () => {
                     <h2>Projects</h2>
                     <ul className="project-list">
                         <li className="project">
-                            <a href="https://github.com/micbentz/ShapeShift">Shape Shift</a>
+                            <a href="https://github.com/micbentz/Shape-Shift">Shape Shift</a>
                             {/* <p>Description</p> */}
                         </li>
                         <li className="project">
