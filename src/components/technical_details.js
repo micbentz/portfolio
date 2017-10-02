@@ -36,7 +36,15 @@ const TechnicalDetails = () => {
                             {/* <p>Description</p> */}
                         </li>
                         <li className="project">
-                            <a href="#">Platanos</a>
+                            <a href="https://github.com/casanas10/FINAL_PROJECT_IOS">iOS College Reminder</a>
+                            {/* <p>Description</p> */}
+                        </li>
+                        <li className="project">
+                            <a href="https://github.com/micbentz/COT-Group-Project">Machine Learning</a>
+                            {/* <p>Description</p> */}
+                        </li>
+                        <li className="project">
+                            <a href="https://github.com/Hawsho/DataBases-Project">Rate a Book</a>
                             {/* <p>Description</p> */}
                         </li>
                     </ul>
